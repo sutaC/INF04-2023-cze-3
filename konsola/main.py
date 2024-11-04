@@ -12,8 +12,9 @@
 #  autor: XYZ
 # *****************************************************
 class Film:
-    __title: str = None
-    __rentals: int = 0
+    def __init__(self) -> None:
+        self.__title: str = None
+        self.__rentals: int = 0
 
     def getTitle(self) -> str:
         return self.__title
